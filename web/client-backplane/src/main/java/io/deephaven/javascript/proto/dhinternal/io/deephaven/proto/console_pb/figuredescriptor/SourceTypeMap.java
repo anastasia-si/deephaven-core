@@ -29,6 +29,9 @@ public interface SourceTypeMap {
     @JsProperty(name = "HOVER_TEXT")
     int getHOVER_TEXT();
 
+    @JsProperty(name = "TEXT")
+    int getTEXT();
+
     @JsProperty(name = "LABEL")
     int getLABEL();
 
@@ -82,6 +85,9 @@ public interface SourceTypeMap {
 
     @JsProperty(name = "HOVER_TEXT")
     void setHOVER_TEXT(int HOVER_TEXT);
+
+    @JsProperty(name = "TEXT")
+    void setTEXT(int TEXT);
 
     @JsProperty(name = "LABEL")
     void setLABEL(int LABEL);
